@@ -11,5 +11,5 @@ app.use(cors());
 app.post('/create-payment-intent', createPaymentIntent);
 
 app.listen(3001, () => {
-  console.log('Server listening on port 3000');
+  console.log('Server listening on port 3001');
 });
